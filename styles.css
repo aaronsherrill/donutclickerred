@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .display {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  #clicker-button {
+    background-color: #55acee;
+    color: #fff;
+    border: none;
+  }
+  
+  #multiplier-button,
+  #auto-clicker-button,
+  #reset-button {
+    background-color: #e6e6e6;
+    color: #333;
+    border: none;
+  }
+  
+  #multiplier-button:disabled,
+  #auto-clicker-button:disabled {
+    background-color: #ccc;
+  }
+  
+  .donut-image {
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+  }
+  
